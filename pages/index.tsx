@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         </p>
 
         <div className="py-2">
-          <Button link="/user">Link</Button>
+          <Button link="/user">Login</Button>
         </div>
 
         <div className="py-2">

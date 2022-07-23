@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
         <p className="py-4">
           Welcome to Tangie, the best way to find the right marijuana products
-          for you.
+          for you. Kittens.
         </p>
 
         <div className="py-2">

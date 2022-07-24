@@ -34,6 +34,7 @@ const Home: NextPage = () => {
             Sign up
           </Button>
         </div>
+        <h1>test</h1>
       </div>
     </main>
   );

@@ -16,7 +16,7 @@ export default function Tag({ text, selected = false }: TagProps) {
         checked={isSelected}
         onChange={setIsSelected}
         className={clsx(
-          "inline-block text-black font-bold py-4 px-2 rounded-full",
+          "inline-block text-black font-bold py-4 px-5 rounded-full",
           {
             "bg-tangie-bluePurple-500 border-2 box-border border-transparent text-white":
               isSelected,

@@ -18,8 +18,10 @@ export default function Tag({ text, selected = false }: TagProps) {
         className={clsx(
           "inline-block text-black font-bold py-4 px-2 rounded-full",
           {
-            "bg-tangie-mint-500 border-2 box-border border-transparent": isSelected,
-            "border-tangie-mint-500 border-2 box-border border-black": !isSelected,
+            "bg-tangie-bluePurple-500 border-2 box-border border-transparent text-white":
+              isSelected,
+            "border-tangie-bluePurple-500 border-2 box-border text-green":
+              !isSelected,
           }
         )}
       >

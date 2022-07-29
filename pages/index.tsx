@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import Button from "@components/button";
+import Tag from "@components/tag";
 
 const Home: NextPage = () => {
   return (
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
             Sign up
           </Button>
         </div>
-        <h1>test</h1>
+        <Tag text="tag" />
       </div>
     </main>
   );

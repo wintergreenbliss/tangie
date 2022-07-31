@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Install dependencies
 
 ```bash
-# Ensure you've install nvm
+# Ensure you've installed nvm
 nvm use
 npm install
 ```

@@ -11,7 +11,7 @@ module.exports = {
           mint: {
             500: "#13EAA8",
           },
-          bluePurple: {
+          blurple: {
             500: "#5765F2",
           },
         },

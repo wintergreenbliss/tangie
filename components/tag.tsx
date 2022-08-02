@@ -11,22 +11,18 @@ export default function Tag({ text, selected = false }: TagProps) {
   const [isSelected, setIsSelected] = useState(selected);
 
   return (
-    <div className="py-16">
-      <Switch
-        checked={isSelected}
-        onChange={setIsSelected}
-        className={clsx(
-          "inline-block text-black font-bold py-4 px-5 rounded-full",
-          {
-            "bg-tangie-bluePurple-500 border-2 box-border border-transparent text-white":
-              isSelected,
-            "border-tangie-bluePurple-500 border-2 box-border text-green":
-              !isSelected,
-          }
-        )}
-      >
-        <div>{text}</div>
-      </Switch>
-    </div>
+    <Switch
+      checked={isSelected}
+      onChange={setIsSelected}
+      className={clsx(
+        "inline-block text-black font-bold py-4 px-5 rounded-full border-2",
+        {
+          "bg-tangie-blurple-500 border-transparent text-white": isSelected,
+          "border-tangie-blurple-500 text-green": !isSelected,
+        }
+      )}
+    >
+      <div>{text}</div>
+    </Switch>
   );
 }

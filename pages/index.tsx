@@ -35,7 +35,7 @@ const Home: NextPage = () => {
             Sign up
           </Button>
         </div>
-        <Tag text="Tag_Sample" />
+        <Tag text="Tag - Click Me" />
       </div>
     </main>
   );

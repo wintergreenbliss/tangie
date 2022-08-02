@@ -7,7 +7,7 @@ type TagProps = {
   selected?: boolean;
 };
 
-export const Tag = ({ text, selected = false }: TagProps) => {
+const Tag = ({ text, selected = false }: TagProps) => {
   const [isSelected, setIsSelected] = useState(selected);
 
   return (

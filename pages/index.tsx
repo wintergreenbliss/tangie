@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import Button from "@components/button";
+import Tag from "@components/tag";
 
 const Home: NextPage = () => (
   <main className="container mx-auto p-6 text-center flex flex-col h-screen justify-center items-center">
@@ -32,6 +33,8 @@ const Home: NextPage = () => (
         <Button type="outline" link="/user">
           Sign up
         </Button>
+
+        <Tag text="Tag - Click Me" />
       </div>
     </div>
   </main>

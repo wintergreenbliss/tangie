@@ -11,6 +11,9 @@ module.exports = {
           mint: {
             500: "#13EAA8",
           },
+          blurple: {
+            500: "#5765F2",
+          },
         },
       },
       fontFamily: {

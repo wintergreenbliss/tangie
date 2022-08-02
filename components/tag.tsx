@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import { Switch } from "@headlessui/react";
 
 type TagProps = {
@@ -7,7 +7,7 @@ type TagProps = {
   selected?: boolean;
 };
 
-export default function Tag({ text, selected = false }: TagProps) {
+export const Tag = ({ text, selected = false }: TagProps) => {
   const [isSelected, setIsSelected] = useState(selected);
 
   return (
@@ -25,4 +25,6 @@ export default function Tag({ text, selected = false }: TagProps) {
       <div>{text}</div>
     </Switch>
   );
-}
+};
+
+export default Tag;

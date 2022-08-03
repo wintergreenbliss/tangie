@@ -1,12 +1,5 @@
-import Icon from "./icon";
+import Icon, { IconProps } from "./icon";
 import insomniaIcon from "../../public/mvp-icons/insomnia-icon.svg";
-
-type IconProps = {
-  src: string;
-  alt?: string;
-  height?: string;
-  width?: string;
-};
 
 const AnxietyIcon = ({
   src = insomniaIcon,

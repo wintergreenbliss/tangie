@@ -1,8 +1,8 @@
 import Image from "next/image";
 import insomniaIcon from "../../public/mvp-icons/insomnia-icon.svg";
 
-type IconProps = {
-  src: string;
+export type IconProps = {
+  src: any;
   alt?: string;
   height?: string;
   width?: string;
